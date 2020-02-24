@@ -3,10 +3,9 @@ import { BrowserModule } from '@angular/platform-browser';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 
-import { AboutPage } from '../pages/about/about';
 import { CadastrarPage } from '../pages/cadastrar/cadastrar';
-import { ContactPage } from '../pages/contact/contact';
-import { HomePage } from '../pages/home/home';
+import { DoarPage } from '../pages/doar/doar';
+import { AdotarPage } from '../pages/adotar/adotar';
 import { CastrarPage } from '../pages/castrar/castrar';
 import { TabsPage } from '../pages/tabs/tabs';
 
@@ -15,10 +14,9 @@ import { TabsPage } from '../pages/tabs/tabs';
   declarations: [
     MyApp,
     CadastrarPage,
-    AboutPage,
+    DoarPage,
+    AdotarPage,
     CastrarPage,
-    ContactPage,
-    HomePage,
     TabsPage
   ],
   imports: [
@@ -30,9 +28,8 @@ import { TabsPage } from '../pages/tabs/tabs';
     MyApp,
     CadastrarPage,
     CastrarPage,
-    AboutPage,
-    ContactPage,
-    HomePage,
+    AdotarPage,
+    DoarPage,
     TabsPage
   ],
   providers: [
