@@ -5,7 +5,7 @@ import { NavController } from 'ionic-angular';
   selector: 'page-adotar',
   templateUrl: 'adotar.html'
 })
-export class CastrarPage {
+export class AdotarPage {
 
   constructor(public navCtrl: NavController) {
 
