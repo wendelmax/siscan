@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 import {CadastrarPage } from '../cadastrar/cadastrar';
 import {CastrarPage } from '../castrar/castrar';
-import {DoarPage } from '../doar/doar';
+import {ReciboPage } from '../recibo/recibo';
 import {AdotarPage } from '../adotar/adotar';
 
 @Component({
@@ -11,7 +11,7 @@ import {AdotarPage } from '../adotar/adotar';
 export class TabsPage {
 
   tab1Root = CadastrarPage;
-  tab2Root = DoarPage;
+  tab2Root = ReciboPage;
   tab3Root = AdotarPage;
   tab4Root = CastrarPage;
 
